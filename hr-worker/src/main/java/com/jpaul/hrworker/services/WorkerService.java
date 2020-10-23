@@ -1,13 +1,12 @@
 package com.jpaul.hrworker.services;
 
-import java.util.List;
-
 import com.jpaul.hrworker.controller.dtos.WorkerDTO;
-import com.jpaul.hrworker.entities.Worker;
+
+import java.util.List;
 
 public interface WorkerService {
 	
-	List<Worker> findAll();
+	List<WorkerDTO> findAll();
 
 	WorkerDTO findById(Long id);
 
