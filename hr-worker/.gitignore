@@ -34,5 +34,5 @@ build/
 
 ### Eclipse ###
 .metadata/
-*/.factorypath
-*/.project
+.factorypath
+.project
