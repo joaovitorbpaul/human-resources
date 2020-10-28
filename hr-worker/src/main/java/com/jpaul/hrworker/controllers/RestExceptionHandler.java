@@ -1,4 +1,4 @@
-package com.jpaul.hrworker.controller;
+package com.jpaul.hrworker.controllers;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

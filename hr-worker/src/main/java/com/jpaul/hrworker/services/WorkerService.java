@@ -1,8 +1,8 @@
 package com.jpaul.hrworker.services;
 
-import com.jpaul.hrworker.controller.dtos.WorkerDTO;
-
 import java.util.List;
+
+import com.jpaul.hrworker.controllers.dtos.WorkerDTO;
 
 public interface WorkerService {
 	

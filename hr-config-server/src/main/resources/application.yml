@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: hr-config-server  cloud:    config:      server:        git:          default-label: main
+          uri: https://github.com/joaovitorbpaul/hr-configs
+          username: ${GITHUB_USER}
+          password: ${GITHUB_PASS}
+    
+server:  port: 8888

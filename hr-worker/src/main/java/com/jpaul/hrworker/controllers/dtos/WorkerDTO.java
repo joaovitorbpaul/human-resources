@@ -1,4 +1,4 @@
-package com.jpaul.hrworker.controller.dtos;
+package com.jpaul.hrworker.controllers.dtos;
 
 import com.jpaul.hrworker.entities.Worker;
 import lombok.AllArgsConstructor;

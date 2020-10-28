@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.jpaul.hrworker.controller.dtos.WorkerDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import com.jpaul.hrworker.controllers.dtos.WorkerDTO;
 import com.jpaul.hrworker.entities.Worker;
 import com.jpaul.hrworker.repositories.WorkerRepository;
 import com.jpaul.hrworker.services.WorkerService;
