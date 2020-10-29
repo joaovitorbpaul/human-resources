@@ -22,7 +22,7 @@ public class PaymentController {
     @GetMapping(WORKER_ID_DAYS_DAYS_PATH)
     @ResponseStatus(HttpStatus.OK)
     public Payment getPaymentByWorker(@PathVariable Long workerId, @PathVariable Integer days){
-        return paymentService.getPayment(workerId, days);
+        return new PaymentDTO(paymentService.getPayment(workerId, days));
     }
     
 }

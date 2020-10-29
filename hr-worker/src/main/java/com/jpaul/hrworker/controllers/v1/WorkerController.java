@@ -41,20 +41,20 @@ public class WorkerController {
 	@GetMapping("/configs")
 	@ResponseStatus(HttpStatus.OK)
 	public void getConfigs() {
-		log.debug("CONFIG = " + testConfig);
+		log.info("CONFIG = " + testConfig);
 	}
 
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)
 	public List<WorkerDTO> findAll() {
-		log.debug("PORT = " + env.getProperty("local.server.port"));
+		log.info("PORT = " + env.getProperty("local.server.port"));
 		return workerService.findAll();
 	}
 
 	@GetMapping(WORKER_BY_ID_PATH)
 	@ResponseStatus(HttpStatus.OK)
 	public WorkerDTO findById(@PathVariable Long id) {
-		log.debug("PORT = " + env.getProperty("local.server.port"));
+		log.info("PORT = " + env.getProperty("local.server.port"));
 		return workerService.findById(id);
 	}
 }
